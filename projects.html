@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="js-loading">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Haven Dao</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-row wrap">
+    <a class="nav-mark" href="index.html" data-transition><span class="dot"></span>HAVEN DAO</a>
+    <nav class="links" id="navLinks">
+      <a href="index.html" data-transition>Home</a>
+      <a href="projects.html" data-transition class="active">Projects</a>
+      <a href="about.html" data-transition>About</a>
+      <a href="contact.html" data-transition>Contact</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- EDIT: images/banner-projects.jpg -->
+<section class="banner">
+  <img class="banner-bg" src="images/banner-projects.jpg" alt="" onerror="this.style.display='none'">
+  <div class="banner-overlay"></div>
+  <div class="banner-content wrap">
+    <h1>Haven Dao</h1>
+    <span class="banner-tag">Projects</span>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="lede">Ongoing projects I've built and kept improving over time. Click into any of them for the full write-up and photos.</p>
+    <div class="project-grid">
+
+      <a class="project-card" href="project-keyboard.html" data-transition>
+        <div class="card-media">
+          <img src="images/keyboard-thumb.jpg" alt="Custom mechanical keyboard" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-note" style="display:none;">Add images/keyboard-thumb.jpg</div>
+        </div>
+        <span class="card-code">JUNE 2022 — PRESENT</span>
+        <h3>Custom Mechanical Keyboards</h3>
+        <p class="card-desc">Researching switches, keycaps, PCBs, and cases; lubing, soldering, and flashing custom firmware.</p>
+        <span class="card-link">View project →</span>
+      </a>
+
+      <a class="project-card" href="project-car.html" data-transition>
+        <div class="card-media">
+          <img src="images/car-thumb.jpg" alt="Car maintenance and modification" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-note" style="display:none;">Add images/car-thumb.jpg</div>
+        </div>
+        <span class="card-code">NOVEMBER 2024 — PRESENT</span>
+        <h3>Car Maintenance &amp; Modification</h3>
+        <p class="card-desc">Sourcing parts, replacing brakes and fluids, and troubleshooting electrical issues.</p>
+        <span class="card-link">View project →</span>
+      </a>
+
+      <a class="project-card" href="project-deck.html" data-transition>
+        <div class="card-media">
+          <img src="images/deck-thumb.jpg" alt="Backyard deck building project" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-note" style="display:none;">Add images/deck-thumb.jpg</div>
+        </div>
+        <span class="card-code">OCTOBER 2025 — JULY 2026</span>
+        <h3>Deck Building Project</h3>
+        <p class="card-desc">Modeling, dimensioning, and building a backyard deck with my dad in AutoCAD.</p>
+        <span class="card-link">View project →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Haven Dao</span>
+  <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
