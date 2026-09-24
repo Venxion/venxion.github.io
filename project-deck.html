@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="js-loading">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deck Building Project — Haven Dao</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-row wrap">
+    <a class="nav-mark" href="index.html" data-transition><span class="dot"></span>HAVEN DAO</a>
+    <nav class="links" id="navLinks">
+      <a href="index.html" data-transition>Home</a>
+      <a href="projects.html" data-transition class="active">Projects</a>
+      <a href="about.html" data-transition>About</a>
+      <a href="contact.html" data-transition>Contact</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- EDIT: images/banner-deck.jpg -->
+<section class="banner">
+  <img class="banner-bg" src="images/banner-deck.jpg" alt="" onerror="this.style.display='none'">
+  <div class="banner-overlay"></div>
+  <div class="banner-content wrap">
+    <h1>Haven Dao</h1>
+    <span class="banner-tag">Deck Building Project</span>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <a class="back-link" href="projects.html" data-transition>← Back to all projects</a>
+
+    <div class="detail-meta">
+      <div class="m"><span class="num">Oct 2025</span><span class="label">Started</span></div>
+      <div class="m"><span class="num">Jul 2026</span><span class="label">Target finish</span></div>
+      <div class="m"><span class="num">With my dad</span><span class="label">Team</span></div>
+    </div>
+
+    <div class="detail-overview">
+      <p>I'm working with my dad to measure, design, and build a new deck for our backyard — my first project that starts fully in CAD before any wood gets cut.</p>
+      <p>I'm modeling, dimensioning, and calculating measurements for the deck in AutoCAD, comparing wood versus composite materials on structural integrity, durability, price, and maintenance, then adjusting the CAD drawings as we run into real physical and assembly limitations on site.</p>
+      <div class="edit-note">EDIT: once the build is further along, add details here — which material you ended up choosing and why, any load calculations, and what changed between the CAD model and the finished deck.</div>
+    </div>
+
+    <p class="sub-heading">Gallery</p>
+    <!-- EDIT: add images/deck-1.jpg through deck-4.jpg (CAD screenshots and build photos both work well here) -->
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="images/deck-1.jpg" alt="Deck project photo 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="placeholder-note" style="display:none;">Add images/deck-1.jpg</div></div>
+      <div class="gallery-item"><img src="images/deck-2.jpg" alt="Deck project photo 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="placeholder-note" style="display:none;">Add images/deck-2.jpg</div></div>
+      <div class="gallery-item"><img src="images/deck-3.jpg" alt="Deck project photo 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="placeholder-note" style="display:none;">Add images/deck-3.jpg</div></div>
+    </div>
+
+    <p class="sub-heading">Highlights</p>
+    <ul class="highlight-list">
+      <li>Model, dimension, and calculate measurements for the deck in AutoCAD</li>
+      <li>Compare wood and composite materials on structural integrity, durability, price, and maintenance</li>
+      <li>Adjust CAD drawings to meet physical and assembly limitations</li>
+    </ul>
+
+    <p class="sub-heading">Tools &amp; skills</p>
+    <div class="tags">
+      <span class="tag">AutoCAD</span>
+      <span class="tag">Material selection</span>
+      <span class="tag">Woodworking</span>
+      <span class="tag">Power tools</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Haven Dao</span>
+  <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
